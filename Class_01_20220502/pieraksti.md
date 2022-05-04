@@ -5,8 +5,10 @@
 </p>
 </details>  
 
-:exclamation:***Piemērs*** 
-![lapas avota skrīns](
+***View Page Source***  
+![lapas avota skrīns](https://github.com/zazturbo/Mans_JS/blob/main/Class_01_20220502/foto.png)  
+
+  
 
 
 <details><summary>Tagi</summary>
