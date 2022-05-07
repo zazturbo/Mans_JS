@@ -110,7 +110,8 @@ LSB-->0001;
 :spiral_notepad: www.expertcomputerrepairphiladelphia.com  
 :spiral_notepad: www.excelknowhow.com  
 :spiral_notepad: www.stashchuk.com  
-#### 2.Mājaslapa, kuru es gribētu izveidot:
-
+#### 2.Mājaslapa, kuru es gribētu izveidot:  
+:spiral_notepad: No `internetā atrastajiem templates` [^2], vēlētos izveidot ko līdzīgu šim: ![http://www.freepik.com">Designed by Freepik]
+[^2]:http://www.freepik.com">Designed by Freepik
 
 
