@@ -111,7 +111,7 @@ LSB-->0001;
 :spiral_notepad: www.excelknowhow.com  
 :spiral_notepad: www.stashchuk.com  
 #### 2.Mājaslapa, kuru es gribētu izveidot:  
-:spiral_notepad: No `internetā atrastajiem templates` [^2], vēlētos izveidot ko līdzīgu šim: ![http://www.freepik.com">Designed by Freepik]
-[^2]:http://www.freepik.com">Designed by Freepik
+:spiral_notepad: No `internetā atrastajiem templates` [^2], vēlētos izveidot ko līdzīgu šim: ![http://www.freepik.com](https://github.com/zazturbo/Mans_JS/blob/main/Class_01_20220502/template%20min.jpg)  
+[^2]:http://www.freepik.com
 
 
