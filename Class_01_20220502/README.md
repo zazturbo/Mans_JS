@@ -1,5 +1,5 @@
 # Pirmajā nodarbībā apgūtās informācijas kopsavilkums :pushpin:
-<details><summary>Lappuses iekšiene</summary>
+<details><summary>Lappuses iekšiene</summary>  
 <p>
 :warning: Skatīt lapas avotu ātrie taustiņi CTRL+U :man_student:
 </p>
@@ -26,7 +26,7 @@
   </p>
   </details>
   
-<details><summary>Simboli</summary>
+<details><summary>Simboli</summary>  
   <p>
    :eyeglasses:Acīmredzamie
     </p>
@@ -98,5 +98,19 @@ LSB-->0001;
 
 :fly:***`Citas piezīmes:`***   
 - [x] Lai uztaisītu MD failā ENTER, nepieciešami 2 SPACE;  
-- [x] Ikonu simbolu saraksti ir pieejami [šeit](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)  
+- [x] Ikonu simbolu saraksti ir pieejami [šeit](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md) 
+- [x] Liekot `icon` priekšā, tad formatēšanas simbolu un virsrakstu, virsraksta formatēšana ~~ne vienmēr strādā~~. Lai viss korekti strādātu, pēc maniem testiem priekšā vispirms ir jāliek formatēšanas simboli, tad `icon simboli` un tikai tad pats virsraksta/teksta saturs; 
+
+----------------------------------------------------------------------------------  
+## :house: Mājasdarbs:  
+#### 1.Mājaslapas, kuras man patīk:  
+:spiral_notepad: www.facebook.com  
+:spiral_notepad: www.netflix.com  
+:spiral_notepad: www.starwest.com  
+:spiral_notepad: www.expertcomputerrepairphiladelphia.com  
+:spiral_notepad: www.excelknowhow.com  
+:spiral_notepad: www.stashchuk.com  
+#### 2.Mājaslapa, kuru es gribētu izveidot:
+
+
 
