@@ -6,7 +6,7 @@
 </details>  
 
 ***View Page Source***  
-![lapas avota skrīns](https://github.com/zazturbo/Mans_JS/blob/main/Class_01_20220502/foto.png)  
+![lapas avota skrīns](https://github.com/zazturbo/Mans_JS/blob/main/Class_01_20220502/page_source.png)  
 
   
 
