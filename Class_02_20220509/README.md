@@ -10,8 +10,11 @@
 graph TD;
 Skaitļi-->Heksdecimālie;
 Skaitļi-->Binārie;
-Skaitļi-->Krāsas;
-Skaitļi-->Oktālie;
-Krāsas-->'#RRGGBB';
 
-```
+Skaitļi-->Oktālie;
+Skaitļi-->Decimālie;
+```  
+|krāsas|#RRGGBB|
+|------|-------|  
+|melna|#000000|
+
