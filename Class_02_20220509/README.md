@@ -12,6 +12,6 @@ Skaitļi-->Heksdecimālie;
 Skaitļi-->Binārie;
 Skaitļi-->Krāsas;
 Skaitļi-->Oktālie;
-Krāsas-->#RRGGBB;
+Krāsas-->'#RRGGBB';
 
 ```
