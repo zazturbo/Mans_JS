@@ -38,5 +38,5 @@ Sameklēt sava vārda un uzvārda pirmos burtus **_`J Z`_** izteiksmi Binārā, 
 ![krāsu tabula](https://github.com/zazturbo/Mans_JS/blob/main/Class_02_20220509/color.png)  
 [^1]: www.rapidtables.com
 
-:fly: Piezīmes
+:fly: Piezīmes  
 :floppy_disk: Visual studio code uzspiežot **F1** izlec ātro taustiņu saraksts;
