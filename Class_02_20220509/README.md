@@ -18,7 +18,7 @@ Skaitļi-->Oktālie;
 | ------ | ------- |
 | melna  | #000000 |
 
-:fly:**_Uzdevums:_**  
+**_Uzdevums:_**  
 Sameklēt sava vārda un uzvārda pirmos burtus **_`J Z`_** izteiksmi Binārā, Decimālā, Heksdecimālā un Oktālā izteiksmē.  
 :spiral_notepad: BIN = 01001010 01011010;  
 :spiral_notepad: DEC = 74 90;  
@@ -37,3 +37,6 @@ Sameklēt sava vārda un uzvārda pirmos burtus **_`J Z`_** izteiksmi Binārā, 
 ![bin to dec](https://github.com/zazturbo/Mans_JS/blob/main/Class_02_20220509/bin_to_dec.png)  
 ![krāsu tabula](https://github.com/zazturbo/Mans_JS/blob/main/Class_02_20220509/color.png)  
 [^1]: www.rapidtables.com
+
+:fly: Piezīmes
+:floppy_disk: Visual studio code uzspiežot **F1** izlec ātro taustiņu saraksts;
