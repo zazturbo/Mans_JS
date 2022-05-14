@@ -31,6 +31,6 @@ Sameklēt sava vārda un uzvārda pirmos burtus **_`J Z`_** izteiksmi Binārā, 
 
 ![skaitļu sistēmas tabula](https://github.com/zazturbo/Mans_JS/blob/main/Class_02_20220509/skaitli.png)
 
-:spiral_notepad: Špikeri:  
-![bin to hex](https://github.com/zazturbo/Mans_JS/blob/main/Class_02_20220509/bin_to_hex.png)[^1]  
-[^2]:www.rapidtables.com
+:spiral_notepad:Špikeri:[^1]     
+![bin to hex](https://github.com/zazturbo/Mans_JS/blob/main/Class_02_20220509/bin_to_hex.png)  
+[^1]: www.rapidtables.com
