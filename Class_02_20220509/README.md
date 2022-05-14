@@ -35,4 +35,5 @@ Sameklēt sava vārda un uzvārda pirmos burtus **_`J Z`_** izteiksmi Binārā, 
 ![bin to hex](https://github.com/zazturbo/Mans_JS/blob/main/Class_02_20220509/bin_to_hex.png)
 ![bin to oct](https://github.com/zazturbo/Mans_JS/blob/main/Class_02_20220509/bit_to_oct.png)
 ![bin to dec](https://github.com/zazturbo/Mans_JS/blob/main/Class_02_20220509/bin_to_dec.png)  
+![krāsu tabula](https://github.com/zazturbo/Mans_JS/blob/main/Class_02_20220509/color.png)  
 [^1]: www.rapidtables.com
