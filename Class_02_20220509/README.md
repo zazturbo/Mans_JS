@@ -10,10 +10,8 @@
 graph TD;
 Skaitļi-->Heksdecimālie;
 Skaitļi-->Binārie;
-Skaitļi-->Krāsas;
-Skaitļi-->Oktālie;
-Krāsas-->'#RRGGBB';
 
+<<<<<<< HEAD
 ```
 
 "flyght:Uzdevums:
@@ -23,3 +21,14 @@ Krāsas-->'#RRGGBB';
 > :spiral_notepad: DEC = ;  
 > :spiral_notepad: HEX = ;  
 > :spiral_notepad: OCT = ;
+> =======
+> Skaitļi-->Oktālie;
+> Skaitļi-->Decimālie;
+
+```
+|krāsas|#RRGGBB|
+|------|-------|
+|melna|#000000|
+
+>>>>>>> acc1bfb2a0cd9491fce83d39bbe57d8c13b2d07a
+```
