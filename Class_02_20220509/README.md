@@ -25,7 +25,7 @@ Sameklēt sava vārda un uzvārda pirmos burtus **_`J Z`_** izteiksmi Binārā, 
 :spiral_notepad: HEX = ;  
 :spiral_notepad: OCT = ;
 
-#### :floppy_disc: Skaitļu konvertēšana atšķirīgās skaitīšanas sistēmās ir aprakstīta [šeit](https://support.microsoft.com/lv-lv/office/skait%C4%BCu-konvert%C4%93%C5%A1ana-at%C5%A1%C4%B7ir%C4%ABg%C4%81s-skait%C4%AB%C5%A1anas-sist%C4%93m%C4%81s-880eeb52-6e90-4a9d-9e56-acaba6a27560)
+#### :floppy_disk: Skaitļu konvertēšana atšķirīgās skaitīšanas sistēmās ir aprakstīta [šeit](https://support.microsoft.com/lv-lv/office/skait%C4%BCu-konvert%C4%93%C5%A1ana-at%C5%A1%C4%B7ir%C4%ABg%C4%81s-skait%C4%AB%C5%A1anas-sist%C4%93m%C4%81s-880eeb52-6e90-4a9d-9e56-acaba6a27560)
 
 #### Skaitļu sistēmas:
 
