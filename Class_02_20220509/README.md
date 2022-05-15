@@ -40,3 +40,5 @@ Sameklēt sava vārda un uzvārda pirmos burtus **_`J Z`_** izteiksmi Binārā, 
 
 :fly: `Piezīmes`  
 :floppy_disk: Visual studio code uzspiežot **F1**, izlec ātro taustiņu saraksts
+:floppy_disk: Komandrindas komanda **PWD** parāda vietu/mapi, kurā šobrīd atrodas lietotājs
+:floppy_disk: Ar **LS** komandu var saņemt informāciju par saturu, kas atrodas konkrētā mapē, jeb kas man ir pieejams
