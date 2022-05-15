@@ -41,3 +41,4 @@ Sameklēt sava vārda un uzvārda pirmos burtus **_`J Z`_** izteiksmi Binārā, 
 :fly: `Piezīmes`  
 :floppy_disk: Visual studio code uzspiežot **F1**, izlec ātro taustiņu saraksts
 
+test
