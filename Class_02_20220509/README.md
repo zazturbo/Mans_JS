@@ -42,3 +42,8 @@ Sameklēt sava vārda un uzvārda pirmos burtus **_`J Z`_** izteiksmi Binārā, 
 :floppy_disk: Visual studio code uzspiežot **F1**, izlec ātro taustiņu saraksts  
 :floppy_disk: Komandrindas komanda **PWD** parāda vietu/mapi, kurā šobrīd atrodas lietotājs  
 :floppy_disk: Ar **LS** komandu var saņemt informāciju par saturu, kas atrodas konkrētā mapē, jeb kas man ir pieejams  
+:floppy_disk: **CTRL+L** notīrīt komandrindas ekrānu  
+:floppy_disc: Nospiežot **LS -A** tiek attēlotas visi faili  
+:floppy_disk: Nospiežot **LS -LA** detalizētāka informācija par failiem  
+:floppy_disk: Lai noskaidrotu (komandrindā), vai konkrētajā vietā ir kāds dokuments ar mums vajadzīgajiem atslēgvārdiem, var izmantot šādu komandu **LS -LS *Teksts ko meklējam*  
+
