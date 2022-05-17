@@ -5,48 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Uzdevums</title>
+    <link rel="icon" type="image/x-icon" href="../images/logo.ico" />
+    <!-- Te es pielieku ikonu brauzerim -->
   </head>
   <style>
-      table,
-      th,
-      td {
-        border: 1px solid black;
-        table.center {
-    margin-left: auto;
-    margin-right: auto;
-    .class.class.virsraksts{
-      color:blue;
+    table,
+    th,
+    td {
+      border: 1px solid black;
     }
-      }
   </style>
-  <colgroup span="2" style="color: blue"></colgroup>
+  <!-- Norādu tabulas līnijas -->
   <body>
-    <h2 class="virsraksts">Mans uzdevums ar skaitļošanas metodēm</h2>
+    <h2>Mans uzdevums ar skaitļošanas metodēm</h2>
     <table style="width: 100%">
+      <!-- Ar šo apzīmējam, ka tabula būs uz visu brauzera loga platumu -->
       <tr>
-        <th>Skaitīšanas metode</th>
-        <th>Mana vārda pirmais burts J</th>
-        <th>Mana uzvārda pirmais burts Z</th>
+        <th style="color: blue; background-color: hsl(181, 52%, 68%)">
+          Skaitīšanas metode
+        </th>
+        <th style="color: blue; background-color: hsl(181, 52%, 68%)">
+          Mana vārda pirmais burts "J"
+        </th>
+        <th style="color: blue; background-color: hsl(181, 52%, 68%)">
+          Mana uzvārda pirmais burts "Z"
+        </th>
+        <!-- Ar th "table heading" ievietoju tabulas virsrakstus -->
       </tr>
       <tr>
-        <td>Decimālais</td>
+        <td><strong>Decimālais</strong></td>
         <td>74</td>
         <td>90</td>
       </tr>
       <tr>
-        <td>Binārais</td>
-        <td>01001010</td>
-        <td>01011010</td>
+        <td style="color: red"><strong>Binārais</strong></td>
+        <td style="color: red">01001010</td>
+        <td style="color: red">01011010</td>
       </tr>
+      <!-- Turpmāk ar td "table data" veidoju tabulas rindas -->
       <tr>
-        <td>Heksadecimālais</td>
+        <td><strong>Heksadecimālais</strong></td>
         <td>4A</td>
         <td>5A</td>
       </tr>
       <tr>
-        <td>Oktālais</td>
-        <td>112</td>
-        <td>132</td>
+        <td style="color: red"><strong>Oktālais</strong></td>
+        <td style="color: red">112</td>
+        <td style="color: red">132</td>
+      </tr>
+      <!-- Tegā iekšā uzreiz var likt css stilus -->
+      <tr>
+        <td><strong>Burtu krāsu kodi</strong></td>
+        <td>error</td>
+        <td>error2</td>
       </tr>
     </table>
   </body>
