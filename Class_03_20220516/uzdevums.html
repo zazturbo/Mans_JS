@@ -8,57 +8,185 @@
     <link rel="icon" type="image/x-icon" href="../images/logo.ico" />
     <!-- Te es pielieku ikonu brauzerim -->
   </head>
-  <style>
+  <body style="background-color:#c5ced2;">
+      <style>
     table,
-    th,
+    th {
+      border: 2px groove grey;
+    }
     td {
       border: 1px solid black;
     }
+    h2{
+      text-align: center;
+      text-decoration:underline;
+    }
+    .rekinasana{
+      text-align: center;
+      font-size: larger;
+      width: 60%;
+    }
+    h3{
+      text-align: center;
+      text-decoration: underline;
+    }
   </style>
   <!-- Norādu tabulas līnijas -->
-  <body>
+  <div class="table1">
     <h2>Mans uzdevums ar skaitļošanas metodēm</h2>
-    <table style="width: 100%">
+    <table style="width: 100%; text-align: center;">
       <!-- Ar šo apzīmējam, ka tabula būs uz visu brauzera loga platumu -->
+     <div>
       <tr>
-        <th style="color: blue; background-color: hsl(181, 52%, 68%)">
-          Skaitīšanas metode
+        <th style="color: blue; background-color: hsl(181, 52%, 68%);font-family: Georgia, 'Times New Roman', Times, serif; font-size: larger;">
+          Skaitīšanas<br>
+          metode
         </th>
-        <th style="color: blue; background-color: hsl(181, 52%, 68%)">
-          Mana vārda pirmais burts "J"
+        <th style="color: blue; background-color: hsl(181, 52%, 68%);font-family: Georgia, 'Times New Roman', Times, serif; font-size: larger;">
+          Mana vārda<br> 
+          pirmais burts<br>
+           <strong style="color:red">"J"</strong>
         </th>
-        <th style="color: blue; background-color: hsl(181, 52%, 68%)">
-          Mana uzvārda pirmais burts "Z"
+        <th style="color: blue; background-color: hsl(181, 52%, 68%);font-family: Georgia, 'Times New Roman', Times, serif; font-size: larger;">
+          Mana uzvārda<br> 
+          pirmais burts<br>
+           <strong style="color:red">"Z"</strong>
         </th>
         <!-- Ar th "table heading" ievietoju tabulas virsrakstus -->
       </tr>
       <tr>
-        <td><strong>Decimālais</strong></td>
+        <td style="text-align: left; color: red"><strong>Decimālais</strong></td>
         <td>74</td>
         <td>90</td>
       </tr>
       <tr>
-        <td style="color: red"><strong>Binārais</strong></td>
-        <td style="color: red">01001010</td>
-        <td style="color: red">01011010</td>
+        <td style="text-align: left; color: red"><strong>Binārais</strong></td>
+        <td>01001010</td>
+        <td>01011010</td>
       </tr>
       <!-- Turpmāk ar td "table data" veidoju tabulas rindas -->
       <tr>
-        <td><strong>Heksadecimālais</strong></td>
+        <td style="text-align: left; color: red"><strong>Heksadecimālais</strong></td>
         <td>4A</td>
         <td>5A</td>
       </tr>
       <tr>
-        <td style="color: red"><strong>Oktālais</strong></td>
-        <td style="color: red">112</td>
-        <td style="color: red">132</td>
+        <td style="text-align: left; color: red"><strong>Oktālais</strong></td>
+        <td>112</td>
+        <td>132</td>
       </tr>
       <!-- Tegā iekšā uzreiz var likt css stilus -->
-      <tr>
-        <td><strong>Burtu krāsu kodi</strong></td>
-        <td>error</td>
-        <td>error2</td>
-      </tr>
     </table>
+    <p><strong>*Uzdevuma būtība:</strong>  uztaisīt tabulu <em><strong>HTML</strong></em> ar sava vārda un uzvārda pirmajiem burtiem, piemeklējot tiem atbilstošās skaitļu vērtības decimālajā, heksadecimālajā, oktālajā un binārajā izteiksmē.
+    </p>
+  </div>
+  <table class="rekinasana";
+align="center">
+  <br>
+  <div>
+    <h3>Skaitīšanas princips</h3>
+<tr>
+  <th style="width: 70px; height: 30px; background-color: bisque;">HEX</th>
+  <th style="width: 70px; height: 30px; background-color: bisque;">DEC</th>
+  <th style="width: 70px; height: 30px; background-color:bisque">OCT</th>
+  <th style="width: 150px; height: 30px; background-color: bisque;">BIN</th>
+</tr>
+<tr>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0|0|0|0</td>
+ </tr>
+ <tr>
+  <td>1</td>
+  <td>1</td>
+  <td>1</td>
+  <td>0|0|0|1</td>
+ </tr>
+ <tr>
+  <td>2</td>
+  <td>2</td>
+  <td>2</td>
+  <td>0|0|1|0</td>
+ </tr>
+ <tr>
+  <td>3</td>
+  <td>3</td>
+  <td>3</td>
+  <td>0|0|1|1</td>
+ </tr>
+ <tr>
+  <td>4</td>
+  <td>4</td>
+  <td>4</td>
+  <td>0|1|0|0</td>
+ </tr>
+ <tr>
+  <td>5</td>
+  <td>5</td>
+  <td>5</td>
+  <td>0|1|0|1</td>
+ </tr>
+ <tr>
+  <td>6</td>
+  <td>6</td>
+  <td>6</td>
+  <td>0|1|1|0</td>
+ </tr>
+ <tr>
+  <td>7</td>
+  <td>7</td>
+  <td>7</td>
+  <td>0|1|1|1</td>
+ </tr>
+ <tr>
+  <td>8</td>
+  <td>8</td>
+  <td>10</td>
+  <td>1|0|0|0</td>
+ </tr>
+ <tr>
+  <td>9</td>
+  <td>9</td>
+  <td>11</td>
+  <td>1|0|0|1</td>
+  <tr>
+    <td>A</td>
+    <td>10</td>
+    <td>12</td>
+    <td>1|0|1|0</td>
+   </tr>
+   <tr>
+    <td>B</td>
+    <td>11</td>
+    <td>13</td>
+    <td>1|0|1|1</td>
+   </tr>
+   <tr>
+    <td>C</td>
+    <td>12</td>
+    <td>14</td>
+    <td>1|1|0|0</td>
+   </tr>
+   <tr>
+    <td>D</td>
+    <td>13</td>
+    <td>15</td>
+    <td>1|1|0|1</td>
+    </tr>
+    <tr>
+      <td>E</td>
+      <td>14</td>
+      <td>16</td>
+      <td>1|1|1|0</td>
+     </tr>
+     <tr>
+      <td>F</td>
+      <td>15</td>
+      <td>17</td>
+      <td>1|1|1|1</td>
+      </tr>
+</div>
+</table>
   </body>
 </html>
