@@ -23,8 +23,14 @@
     }
     .rekinasana{
       text-align: center;
-      font-size: larger;
+      font-size:medium;
       width: 60%;
+    }
+    .dec_to_bin{
+      border: 1px solid black;
+      font-size: medium;
+      width: 30%;
+      text-align:center;
     }
     h3{
       text-align: center;
@@ -188,5 +194,67 @@ align="center">
       </tr>
 </div>
 </table>
+<br>
+<div>
+<h3>Pāreja no DEC uz BIN</h3>
+<p>Manā piemērā tiks izmantots mana vārda pirmais burts <strong><em>"J"</em></strong>, kurš decimālajā skaitīšanas sistēmā tiek "apzīmēts" ar skaitli <strong>74.</strong> </p>
+<h4>
+  DEC<sub>10</sub> to BIN<sub>2</sub>
+</h4>
+<table class="dec_to_bin">
+  <tr>
+    <th style="background-color:aliceblue">74<sub>10</sub></th>
+    <th style="background-color:aliceblue">ir vienāds ar</th>
+    <th style="background-color:aliceblue">atlikums</th>
+  </tr>
+  <tr>
+    <td>74:2</td>
+    <td>37</td>
+    <td style="background-color:rgb(200, 71, 82);"><strong>0</strong></td>
+  </tr>
+  <tr>
+    <td>37:2</td>
+    <td>18</td>
+    <td style="background-color:rgb(200, 71, 82);"><strong>1</strong></td>
+  </tr>
+  <tr>
+    <td>18:2</td>
+    <td>9</td>
+    <td style="background-color:rgb(200, 71, 82);"><strong>0</strong></td>
+  </tr>
+<tr>
+  <td>9:2</td>
+  <td>4</td>
+  <td style="background-color:rgb(200, 71, 82);"><strong>1</strong></td>
+</tr>
+<tr>
+  <td>4:2</td>
+  <td>2</td>
+  <td style="background-color:rgb(200, 71, 82);"><strong>0</strong></td>
+</tr>
+<tr>
+  <td>2:2</td>
+  <td>0</td>
+  <td style="background-color:rgb(200, 71, 82);"><strong>0</strong></td>
+</tr>
+<tr>
+  <td>1:2</td>
+  <td>0</td>
+  <td style="background-color:rgb(200, 71, 82);"><strong>1</td>
+</tr>
+</table>
+ <p>Rezultātā saskaitot atlikumus <strong><em style="color:blue">JĀSKAITA NO APAKŠAS UZ AUGŠU!!! </em></strong>sanāk skaitlis <strong><em style="color:blue; font-size: larger; ">1001010<sub>2</sub></em></strong>.</strong> Ievērojot bitu proporciju, līdz 8 bitiem trūkst vēl 1 bits, tāpēc skaitlim priekšā ir jāpieliek 0.</p>
+<table style="width:30%; text-align: center;">
+  <tr>
+    <th>MSB</th>
+    <th>LSB</th>
+  </tr>
+  <tr>
+    <td><strong style="color:red">0</strong>100</td>
+    <td>1010</td>
+  </tr>
+</table>
+<h4>Augstāk aprakstītās procedūras iznākums binārā izteiksmē ir <strong style="color:red">01001010<sub>2</sub></strong>.</h4>
+</div>
   </body>
 </html>
