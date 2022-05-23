@@ -1,0 +1,29 @@
+h2 {
+  text-align: left;
+  color: blue;
+}
+h3 {
+  text-align: left;
+  color: brown;
+}
+
+p {
+  text-align: left;
+  font-family: cursive;
+}
+img.man {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  background-color: antiquewhite;
+}
+td {
+  text-align: left;
+  font-family: cursive;
+}
