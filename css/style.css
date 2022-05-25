@@ -15,15 +15,20 @@ img.man {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
-  width: 150px;
+  width: 140px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 body {
-  background-color: antiquewhite;
+  background: url("../images/pattern.png");
 }
-td {
+td,
+th {
   text-align: left;
   font-family: cursive;
+}
+table {
+  align-items: centred;
+  width: 50%;
 }
