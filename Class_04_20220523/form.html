@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Submit form</title>
+    <style>
+      fieldset {
+        background-color: antiquewhite;
+      }
+      input[type="submit"] {
+        width: 100%;
+        background-color: #4caf50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0px;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Registration form</h1>
+    <div>
+      <form name="Registration form">
+        <label for="uname">Username:*</label><br />
+        <input type="text" /><br />
+        <label for="email">Email:*</label><br />
+        <input type="email" /><br />
+        <label for="password">Password:*</label><br />
+        <input type="password" /><br />
+        <label for="cpassword">Confirm password:*</label><br />
+        <input type="cpassword" /><br /><br />
+        <fieldset>
+          <legend><strong>Personal information</strong></legend>
+          <br />
+          <label for="fname">First name</label>
+          <input type="name" />
+          <label for="lname">Last name</label>
+          <input type="last" size="35" />
+          <label for="birthday">Birthday</label>
+          <input type="date" />
+        </fieldset>
+        <br />
+        <fieldset>
+          <legend><strong>Gender</strong></legend>
+          <br />
+          <input type="radio" name="gender" />
+          <label for="male">Male</label><br />
+          <input type="radio" name="gender" />
+          <label for="female">Female</label>
+        </fieldset>
+        <br />
+      </form>
+      <fieldset style="background-color: antiquewhite">
+        <legend><strong>Notes</strong></legend>
+        <textarea name="notes" id="" cols="60" rows="10">Text</textarea>
+      </fieldset>
+      <br />
+      <input type="submit" value="Submit!" />
+    </div>
+  </body>
+</html>
