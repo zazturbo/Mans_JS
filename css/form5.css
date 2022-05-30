@@ -1,0 +1,57 @@
+body {
+  background: url("../images/pattern.png");
+  border-radius: 12px;
+  display: block;
+  width: 600px;
+  height: 200px;
+  margin: 15px auto;
+}
+input[type="submit"] {
+  background-color: rgb(107, 197, 107);
+  color: white;
+  cursor: pointer;
+  padding: 14px 20px;
+  border-radius: 12px;
+  font-size: large;
+  box-shadow: 10px 10px 10px;
+  border: groove 4px;
+}
+fieldset {
+  border-radius: 15px;
+  background-color: rgb(221, 162, 91);
+  border: outset;
+}
+legend {
+  font-family: cursive;
+  color: black;
+  font-weight: bolder;
+  background-color: aliceblue;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px;
+  border: outset;
+}
+div.page {
+  box-shadow: 20px 20px 20px;
+  background-image: linear-gradient(
+    180deg,
+    rgb(241, 234, 234),
+    rgb(89, 89, 85)
+  );
+  padding: 2%;
+  border-radius: 12px;
+  border: groove 4px;
+}
+p.info {
+  font-size: small;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: blue;
+}
+.grid-container {
+  display: grid;
+  grid: auto/auto auto auto;
+}
+.card {
+  border-radius: 20px;
+  border: groove 4px;
+  box-shadow: 10px 15px 30px;
+}

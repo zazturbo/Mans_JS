@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML forms</title>
+    <link rel="stylesheet" href="../css/form5.css">
+  </head>
+  <body>
+      <div class="page">
+    <form action="https://example.com" method="get">
+        <div class="grid-container">
+      <div class="name">
+          <label for="fname">Vārds</label><br />
+      <input type="text"/></div>
+        <div class="lastname">
+      <label for="lname">Uzvārds</label><br />
+      <input type="text" /></div>
+            <div class="symbol">
+      <img class="card" src="../images/html.png" alt="html_logo" width="60" height="60"> </a></div>
+        </div><br>
+        <fieldset style="background-color: rgb(238, 164, 164)">
+        <legend>Lietotāja identificēšana:</legend><br>      
+      <label for="email">Ievadiet Jūsu e-pastu:</label><br />
+      <input type="email" name="email" id="email" /><br /><br />
+      <label for="password">Ievadiet savu paroli:</label><br />
+      <input type="password" type="hidden"; pattern="[A-Za-z]{6}";/> 
+      <p class="info"><em>(Atļauti 6 mazie/lielie burti)</em></p>
+        </fieldset><br>
+        <fieldset>
+      <legend>Komentārs</legend><br>
+      <label for="text">Atstājiet savu komentāru šeit:</label><br />
+      <textarea name="notes" id="notes" cols="60" rows="10"></textarea><br />
+      <label for="date">Komentāra ierakstīšanas datums:</label><br />
+      <input type="date" name="date" id="date" /><br /><br />
+        </fieldset><br>
+      <input type="submit" value="Nosūtīt pieteikuma formu" />
+    </div>
+    </form>
+  </body>
+</html>
