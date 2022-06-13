@@ -1,0 +1,42 @@
+var x = 100;
+document.getElementById("dec").innerHTML = x;
+var secība = "";
+var nultais_bits = (x >> 0) & 1;
+console.log(nultais_bits);
+secība = nultais_bits + secība;
+console.log(nultais_bits);
+nultais_bits = (x >> 1) & 1;
+secība = nultais_bits + secība;
+console.log(nultais_bits);
+nultais_bits = (x >> 2) & 1;
+secība = nultais_bits + secība;
+console.log(nultais_bits);
+nultais_bits = (x >> 3) & 1;
+secība = nultais_bits + secība;
+console.log(nultais_bits);
+nultais_bits = (x >> 4) & 1;
+secība = nultais_bits + secība;
+console.log(nultais_bits);
+nultais_bits = (x >> 5) & 1;
+secība = nultais_bits + secība;
+console.log(nultais_bits);
+nultais_bits = (x >> 6) & 1;
+secība = nultais_bits + secība;
+console.log(nultais_bits);
+nultais_bits = (x >> 7) & 1;
+secība = nultais_bits + secība;
+console.log(nultais_bits);
+
+document.getElementById("bin").innerHTML = secība;
+
+var r = 6371;
+document.getElementById("radius").innerHTML = r;
+var g = 40009.88;
+document.getElementById("garums").innerHTML = g;
+
+var vards_uzvards = "Jānis Bērziņš,";
+var nauda = 5000;
+var peļņa = (nauda * 0, 01);
+document.getElementById("client").innerHTML = vards_uzvards;
+document.getElementById("money").innerHTML = nauda;
+document.getElementById("procenti").innerHTML = peļņa;
