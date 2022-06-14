@@ -36,11 +36,11 @@ document.getElementById("garums").innerHTML = g;
 
 var vards_uzvards = "Jānis Bērziņš,";
 var nauda = 15000;
-var peļņa_1 = (nauda * 0, 01)*1;
-var peļņa_2= (nauda*0,02)*2;
-var peļņa_3=(nauda*0,03)*3;
-var peļņa_4=(nauda*0,04)*4;
-var peļņa_5=(nauda*0,05)*5;
+var peļņa_1 = (nauda * 0, 01) * 1;
+var peļņa_2 = (nauda * 0, 02) * 2;
+var peļņa_3 = (nauda * 0, 03) * 3;
+var peļņa_4 = (nauda * 0, 04) * 4;
+var peļņa_5 = (nauda * 0, 05) * 5;
 document.getElementById("client").innerHTML = vards_uzvards;
 document.getElementById("money").innerHTML = nauda;
 document.getElementById("procenti_1").innerHTML = peļņa_1;
