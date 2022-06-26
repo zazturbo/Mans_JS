@@ -1,3 +1,5 @@
+# 11.nodarbības kopsavilkums :pushpin:
+
 a=50;
 50
 if(a>100){console.log(a+"ir lielāks par 100")};
@@ -32,5 +34,24 @@ VM1274:1 Sveiks Latvieti
 
 time =13
 13
-if(time<10) {greeting="labrīt"}else if(time>20){greeting="labvakar"}else{greeting="labdien"}console.log(greeting);
+if(time<10) {greeting="labrīt"}else if(time>20){greeting="labvakar"}else{greeting="labdien"}console.log(greeting);  
 VM2055:1 labdien
+
+## Destrukturizācija
+
+:notepad: let a=1;  
+ let b=2;  
+[a,b]=[b,a];
+a=2;  
+b=1;
+
+## Laicīgais mainīgais
+
+:notepad: let a = 1;  
+let b = 2;  
+let temp;  
+temp = a;  
+a = b;  
+b = temp;  
+a; // => 2  
+b; // => 1
