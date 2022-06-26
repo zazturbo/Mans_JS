@@ -56,17 +56,17 @@ b = temp;
 a; // => 2  
 b; // => 1
 
-## Papildinājums un atšķirība (skaitīšana un atņemšana)
-🗒️
-let a = 1;
-let b = 2;
-a = a + b;
-b = a - b;
-a = a - b;
-a; // => 2
-b; // => 1
-Sākotnēji a ir 1 un b ir 2. Zemāk ir redzams kā notiek maiņa:  
+## Papildinājums un atšķirība (skaitīšana un atņemšana)  
+🗒️  
+let a = 1;  
+let b = 2;  
+a = a + b;  
+b = a - b;  
+a = a - b;  
+a; // => 2  
+b; // => 1  
+Sākotnēji a ir 1 un b ir 2. Zemāk ir redzams kā notiek maiņa:    
 
-a = a + b piešķir ***a*** vērtību 1 + 2.
-b = a - b piešķir ***b*** vērtību 1 + 2 - 2 = 1 (b tagad ir 1).
-a = a - b piešķir ***a*** vērtību 1 + 2 - 1 = 2 (a tagad ir 2).
+a = a + b piešķir ***a*** vērtību 1 + 2.  
+b = a - b piešķir ***b*** vērtību 1 + 2 - 2 = 1 (b tagad ir 1).  
+a = a - b piešķir ***a*** vērtību 1 + 2 - 1 = 2 (a tagad ir 2).  
