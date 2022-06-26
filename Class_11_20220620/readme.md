@@ -38,16 +38,16 @@ if(time<10) {greeting="labrīt"}else if(time>20){greeting="labvakar"}else{greeti
 VM2055:1 labdien
 
 ## Destrukturizācija
-
-:notepad: let a=1;  
+🗒️
+let a=1;  
  let b=2;  
 [a,b]=[b,a];
 a=2;  
 b=1;
 
 ## Laicīgais mainīgais
-
-:notepad: let a = 1;  
+🗒️
+let a = 1;  
 let b = 2;  
 let temp;  
 temp = a;  
