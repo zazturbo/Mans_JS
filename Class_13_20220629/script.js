@@ -22,15 +22,22 @@
 
 // text+=cars[0]+"<br>";
 // text=text+cars[0]+"<br>";
-var result = [];
-for (let skaitlis = 1; skaitlis < 26; skaitlis++) {}
-
-// switch (skaitlis) {
-//   case [skaitlis] % 2 == 0:
-//     console.log("skaitlis dalās ar 2");
-//     break;
-//   case [skaitlis] % 3 == 0:
-//     console.log("skaitlis dalās ar 3");
+// let result = [];
+// let text;
+// for (let skaitlis = 1; skaitlis < 26; skaitlis++) {
+//   result.push(+skaitlis);
 // }
+
+let atbilde = +prompt("Ievadiet skaitli:");
+switch (atbilde) {
+  case atbilde % 2 == 0:
+    prompt("skaitlis dalās ar 2");
+    break;
+  case atbilde % 3 == 0:
+    prompt("skaitlis dalās ar 3");
+    break;
+  default:
+    alert("Izvēlieties skaitli līdz 25");
+}
 
 // document.getElementById("automatic_count").innerHTML = text;
