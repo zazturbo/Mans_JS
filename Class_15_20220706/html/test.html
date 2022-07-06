@@ -6,6 +6,7 @@
 
     <p id="demo"></p>
     <p id="old"></p>
+    <p id="simb"></p>
 
     <script>
       const cars = ["BMW", "Volvo", "Mini"];
@@ -22,6 +23,13 @@
       }
 
       document.getElementById("demo").innerHTML = text;
+      //simbolu rindas izveidošana no mainīgā
+      let nosaukums = "JavaScript";
+      let tukss = "";
+      for (let i = 0; i < nosaukums.length; i++) {
+        tukss += nosaukums[i] + "<br>";
+      }
+      document.getElementById("simb").innerHTML = tukss;
     </script>
   </body>
 </html>
