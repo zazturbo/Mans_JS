@@ -2,12 +2,12 @@
 
 ## Objekti
 
-Objektu var definēt ar literāļa palīdzību: const <literālis> {};
-Objekta īpašību (property) izgūšana:  
+-[x] Objektu var definēt ar literāļa palīdzību: const <literālis> {};
+-[x] Objekta īpašību (property) izgūšana:  
 console.log(car.type) vai  
 console.log(car["type"]);
 console ir objekts, .log ir tās metode.  
-Objekts ar metodi:  
+-[x] Objekts ar metodi:  
 const person = {
 firstName: "John",
 lastName : "Doe",
@@ -16,6 +16,6 @@ fullName : function() {
 return this.firstName + " " + this.lastName;
 }
 };  
-No objektiem var taisīt dublikātus, izveidojot jaunu mainīgo;
-This attiecās uz objekta saturu, ārpus tā globāli tas nedarbojas.
-Ja dublikātam pievieno kādu īpašību, tas pāriet arī uz oriģinālu.
+-[x] No objektiem var taisīt `dublikātus`, izveidojot jaunu mainīgo;
+-[x] `This` attiecās uz objekta saturu, ārpus tā globāli tas nedarbojas.
+-[x] Ja dublikātam pievieno kādu īpašību, tas pāriet arī uz oriģinālu.
