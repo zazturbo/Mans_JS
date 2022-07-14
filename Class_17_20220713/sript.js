@@ -29,3 +29,6 @@ console.log(
 const latvia2 = latvia;
 console.log(latvia2);
 latvia2.cits = "best";
+
+console.log(latvia);
+console.log(latvia2);
