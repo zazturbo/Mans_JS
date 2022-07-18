@@ -1,0 +1,50 @@
+0. Javascript:
+*iekš HTML (iekš body, heat)
+*atsevišķā lokālā failā
+*atsevišķā ārējā failā (kaut kur tīklā)
++scopes - {}
++teikumi beidzās ar semikolu;
+*browser + inspect +console + debug
+
+1. Variables (mainīgie)
+*var, let, const
+*primitīvie datu tipi - (number, string, bolean,...)
+*daudzas dažādas matemātiskās, loģiskās, bitu utt operācijas (||, &&..), bitu (|, &, >,..)
+
+2. Array (masīvi)
+*viens_vaards[daudzi indeksēti elementi/vērtības]
+*daudzas dažādas metodes attiecībā uz šo elementu kopu
+*string- simblu masīvs - piemēram: "text"+variable_value
+                                   "text" ${variable_value}
+
+3.1. If (koda izpildes zarošana)
+*else
+*izšķiršanas par vēlamo turpmāk izmantojamo vērtību vai darmo darbību ar konstrukciju 
+(nosacījums) ? true_darbības : false_darbības;
+
+3.2. switch (-//- ja ir daudz plašāka nākamā zara izvēle)
+*break
+*default
+
+4. Loops (cikli)
+*for(; ; ;){} //var pārtraukt ar break
+*while(){}
+*do{} while
+*for (array_current_element of array)
+
+5. Functions
+*function function_name(function_arguments){function_body}-definition with statement
+* const(var/let) function_name = function(function_arguments){function_body}-definition with expression
+*                              = function function_entire_for_recursion(function_arguments){function_body}
+*functions defined by expression can't be hoisted - nevar tikt izmantotas pirms definēšanas (apraksta)
+*pārlūku iebūvētās funkcijas
+
+6. Objects 
+*properties (īpašības) - object_name.object_property_name
+                         object_name["object_property_name"]
+*methods (funkcijas)
+*const object_name ={object_property_name:object_property_value}  - definēšana ar literāļa palīdzību
+*pārlūku iebūvēti objekti (console,window)
+*this (window, object, HTML element in case of event)
+*object_name.object_method_name.call(other_object_name)
+*object_name.object_method_name.bind(other_object_name)
