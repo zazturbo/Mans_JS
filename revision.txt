@@ -30,7 +30,10 @@
 *for(; ; ;){} //var pārtraukt ar break
 *while(){}
 *do{} while
-*for (array_current_element of array)
+*for (let current_element of array)
+*for (let current_element in array)
+*for (let current_property in object)
+*for (let current_property of object)
 
 5. Functions
 *function function_name(function_arguments){function_body}-definition with statement
@@ -44,7 +47,14 @@
                          object_name["object_property_name"]
 *methods (funkcijas)
 *const object_name ={object_property_name:object_property_value}  - definēšana ar literāļa palīdzību
+*object.defineProperty(object_name, "object_property_name",{
+    value:....
+    eritable: false/true,
+    enumerable: true/false,
+    configurable:true/false});
+*object.values(object.name)->array with values of properties and descriptions of methods 
 *pārlūku iebūvēti objekti (console,window)
 *this (window, object, HTML element in case of event)
 *object_name.object_method_name.call(other_object_name)
 *object_name.object_method_name.bind(other_object_name)
+*JSON.stringify(object_name) īpašības un vērtības nodod ar JSON palīdzību, metodes/funkcijas atmet
