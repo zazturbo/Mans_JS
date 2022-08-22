@@ -6,10 +6,23 @@ function myFunction() {
       document.getElementById(
         "demo1"
       ).innerHTML = `Jūs izvēlējāties resursu: ${answer}`;
-      setInterval(location.replace(`https://${answer}`), 5);
+      location.replace(`https://${answer}`);
     }
   } else {
     text = "Jūs atcēlāt!";
   }
   document.getElementById("demo").innerHTML = text;
 }
+
+// let counter = 0;
+// var x = setInterval(my_Function, 1000);
+
+// document.getElementById("demo2").innerHTML = `Intervāla Id ${x}`;
+
+// function my_Function() {
+//   document.getElementById("demo3").innerHTML = counter;
+//   counter++;
+//   if (counter < 5) {
+//     clearInterval(x);
+//   }
+// }
