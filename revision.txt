@@ -34,6 +34,7 @@
 *for (let current_element in array)
 *for (let current_property in object)
 *for (let current_property of object)
+*
 
 5. Functions
 *function function_name(function_arguments){function_body}-definition with statement
