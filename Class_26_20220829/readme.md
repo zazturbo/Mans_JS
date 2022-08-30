@@ -1,14 +1,15 @@
 # 26.nodarbības kopsavilkums:pushpin:
 
-## Javascript DOM `Document Object Model`
+## Javascript DOM `Document Object Model`  
+![koks](https://github.com/zazturbo/Mans_JS/blob/7ed7284f7f42eb88c0248c307006d5945322ef3e/images/DOM%20koks.png)  
 
 #### Piekļūšana pie satura:
 
-:arrow\*right: \*\*\_getElementById()**\*  
+:arrow_right: **_getElementById()_**  
 :arrow_right: **_getElementByName()_**  
 :arrow_right: **_getElementByTagName()_**  
 :arrow_right: **_getElementByClassName()_**  
-:arrow_right: **_querySelector()_\*\*
+:arrow_right: **_querySelector()_**
 
 ### Darbības/manipulācijas ar HTML elementiem:
 
