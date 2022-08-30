@@ -1,6 +1,7 @@
 # 26.nodarbības kopsavilkums:pushpin:
 
-## Javascript DOM `Document Object Model`
+## Javascript DOM `Document Object Model`  
+![koks](https://github.com/zazturbo/Mans_JS/blob/7ed7284f7f42eb88c0248c307006d5945322ef3e/images/DOM%20koks.png)  
 
 #### Piekļūšana pie satura:
 
