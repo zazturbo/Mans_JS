@@ -1,8 +1,8 @@
 # 26.nodarbības kopsavilkums:pushpin:
 
-## Javascript DOM >Document Object Model<
+## Javascript DOM `Document Object Model`
 
-Piekļūšana pie satura:  
+#### Piekļūšana pie satura:  
 :arrow_right: **_getElementById()_**  
 :arrow_right: **_getElementByName()_**  
 :arrow_right: **_getElementByTagName()_**  
