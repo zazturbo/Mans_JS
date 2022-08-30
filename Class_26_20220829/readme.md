@@ -5,11 +5,11 @@
 
 #### Piekļūšana pie satura:
 
-:arrow\*right: \*\*\_getElementById()**\*  
+:arrow_right: **_getElementById()_**
 :arrow_right: **_getElementByName()_**  
 :arrow_right: **_getElementByTagName()_**  
 :arrow_right: **_getElementByClassName()_**  
-:arrow_right: **_querySelector()_\*\*
+:arrow_right: **_querySelector()_**
 
 ### Darbības/manipulācijas ar HTML elementiem:
 
