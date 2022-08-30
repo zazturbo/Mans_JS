@@ -5,4 +5,4 @@ Resurss informācijai:
 https://developer.mozilla.org/en-US/docs/Web/API/Node/nodeType
 
 :spiralnotepad: Node pārbaudes vērtības:  
-[node_codes](https://github.com/zazturbo/Mans_JS/blob/78bb1b3488aea457d3e210f705df458396cda74f/images/Node_code.png)
+![node_codes](https://github.com/zazturbo/Mans_JS/blob/78bb1b3488aea457d3e210f705df458396cda74f/images/Node_code.png)
