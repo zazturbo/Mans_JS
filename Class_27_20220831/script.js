@@ -1,19 +1,26 @@
+﻿// https://www.javascripttutorial.net/javascript-dom/javascript-events/
+
 let btn = document.querySelector("#btn");
 
-// function display() {
-//   alert("It was clicked!");
-// }
+/*
+function display(event) {
+    alert('It was clicked!');
+    console.log(event.type);
+    console.log(event.bubbles);
+    console.log(event.cancelable);
+    console.log(event.currentTarget);
+    //event.currentTarget.innerText = 'Ouch!';
+    console.log(event.defaultPrevented);
+    console.log(event.detail);
+}
+btn.addEventListener('click',display);
+*/
 
-// btn.addEventListener("click", display);
-
-// btn.addEventListener("click", () => {
-//   alert("It was clicked!");
-// });
-
-// btn.addEventListener("click", (event) => {
-//   alert("It was clicked!");
-//   console.log(event.type);
-// });
+/*
+btn.addEventListener('click',function() {
+    alert('It was clicked!');
+});
+*/
 
 btn.addEventListener("click", (event) => {
   // 'mousedown' 'mouseup' 'mouseover'
@@ -38,7 +45,20 @@ btn.addEventListener("click", (event) => {
 
 // https://developer.mozilla.org/en-US/docs/Web/API/Event/currentTarget
 function hide(e) {
-  e.currentTarget.style.visibility = "hidden";
+  let currentTarget_ = e.currentTarget;
+  let target_ = e.target;
+  //console.log(currentTarget_.tagName);
+  if (currentTarget_.tagName == "P")
+    setTimeout(() => {
+      currentTarget_.style.visibility = "hidden";
+    }, 1000);
+  //setTimeout(() => {target_.style.visibility = 'hidden';}, 1000);
+  else
+    setTimeout(() => {
+      currentTarget_.style.visibility = "hidden";
+    }, 2000);
+  //setTimeout(() => {target_.style.visibility = 'hidden';}, 2000);
+  e.stopPropagation();
   console.log("e.currentTarget: ", e.currentTarget);
   console.log("e.target: ", e.target);
   // When this function is used as an event handler: this === e.currentTarget
@@ -51,4 +71,17 @@ for (let i = 0; i < ps.length; i++) {
   ps[i].addEventListener("click", hide, false);
 }
 
-document.body.addEventListener("click", hide, false);
+//document.body.addEventListener('click', hide, false);
+
+let link = document.querySelector("a");
+link.addEventListener("click", function (event) {
+  console.log("clicked");
+  event.preventDefault();
+  console.log(event.currentTarget.href);
+  let jsWindow = window.open(
+    event.currentTarget.href,
+    //"https://www.w3schools.com/js/js_object_prototypes.asp",
+    "test",
+    "height=600,width=800"
+  );
+});
