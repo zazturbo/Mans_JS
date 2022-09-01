@@ -15,4 +15,4 @@
 |onkeydown|Šis notikums tiek aktivizēts, kad lietotājs nospiež tastatūras taustiņu|  
 |onload|Šis notikums tiek aktivizēts, kad pārlūkprogramma ir pabeigusi lapas ielādi|  
 
-🔗Saraksts ar `Events` ir pieejams [šeit](https://www.w3schools.com/jsref/dom_obj_event.asp)  
+🔗Pilns saraksts ar `Events` ir pieejams [šeit](https://www.w3schools.com/jsref/dom_obj_event.asp)  
