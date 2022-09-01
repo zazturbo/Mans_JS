@@ -1,6 +1,14 @@
 # 27.nodarbības kopsavilkums :pushpin:
 
-DOM Events
-Event.currentTarget
-Event.Listener
-Event.Bubbles
+## DOM Events (***notikumi***)    
+➡️Event.currentTarget  
+➡️Event.Listener  
+➡️Event.Bubbles  
+
+🏠 Daži piemēri ar ***DOM Events***   
+|onchange|Šis notikums tiek aktivizēts, kad tiek mainīts HTML elements|  
+|onclick|Šis notikums tiek aktivizēts, kad lietotājs noklikšķina uz HTML elementa|  
+|onmouseover|Šis notikums tiek aktivizēts, kad lietotājs virza peli virs HTML elementa|  
+|onmouseout|Šis notikums tiek aktivizēts, kad lietotājs pārvieto peli prom no HTML elementa|  
+|onkeydown|Šis notikums tiek aktivizēts, kad lietotājs nospiež tastatūras taustiņu|  
+|onload|Šis notikums tiek aktivizēts, kad pārlūkprogramma ir pabeigusi lapas ielādi|  
