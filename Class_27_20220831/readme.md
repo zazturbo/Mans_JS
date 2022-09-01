@@ -20,4 +20,4 @@
 
 🔗Pilns saraksts ar `Events` ir pieejams [šeit](https://www.w3schools.com/jsref/dom_obj_event.asp)  
 
-⚠️```Svarīgs elements ir ***addEventListener***, kurš tiek pielikts klāt pie kāda elementa un seko tam līdzi```  
+⚠️```Svarīgs elements ir addEventListener, kurš tiek pielikts klāt pie kāda elementa un seko tam līdzi```  
