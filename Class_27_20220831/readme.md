@@ -1,6 +1,9 @@
 # 27.nodarbības kopsavilkums :pushpin:
 
 ## DOM Events (***notikumi***)    
+
+![event](https://github.com/zazturbo/Mans_JS/blob/dd01cf9065b74c8c66dca4c02acf988bbd6a35b3/images/Event.png)  
+
 ➡️Event.currentTarget  
 ➡️Event.Listener  
 ➡️Event.Bubbles  
