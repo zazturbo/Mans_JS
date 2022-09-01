@@ -19,8 +19,8 @@
 |onload|Šis notikums tiek aktivizēts, kad pārlūkprogramma ir pabeigusi lapas ielādi|  
 
 🔗Pilns saraksts ar `Events` ir pieejams [šeit](https://www.w3schools.com/jsref/dom_obj_event.asp)  
-----------------------------------------------------------------------------------------------------------------------
+--
 ⚠️```Svarīga metode ir addEventListener, kura tiek pielikta klāt pie kāda elementa un seko tam līdzi```  
 ![sintax](https://github.com/zazturbo/Mans_JS/blob/5f140e64a0878bfd46d8ee48c7e3190b0bf29216/images/addEventListener.png)  
-----------------------------------------------------------------------------------------------------------------------
+--
 🔗Šajā youtube [video](https://www.youtube.com/watch?v=bWCzbR5DvCo) pieejama noderīga informācija par ***JS DOM Events***   
