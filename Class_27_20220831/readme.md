@@ -6,6 +6,8 @@
 ➡️Event.Bubbles  
 
 🏠 Daži piemēri ar ***DOM Events***   
+|Event|Description|
+|-|-|
 |onchange|Šis notikums tiek aktivizēts, kad tiek mainīts HTML elements|  
 |onclick|Šis notikums tiek aktivizēts, kad lietotājs noklikšķina uz HTML elementa|  
 |onmouseover|Šis notikums tiek aktivizēts, kad lietotājs virza peli virs HTML elementa|  
