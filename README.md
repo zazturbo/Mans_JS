@@ -1,8 +1,8 @@
 # Mans_JS
-
-## Mana pierakstu klade Dialogs AB
-
-### Satura rādītājs
+***
+## Mana pierakstu klade Dialogs AB 📖
+***
+### Satura rādītājs: 🗺️
 
 [Class 01]( https://github.com/zazturbo/Mans_JS/blob/472cd6e488ac916572acdc363637e951f24cab60/Class_01_20220502/README.md)  
 [Class 02](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_02_20220509/README.md)  
