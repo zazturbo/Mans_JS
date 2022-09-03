@@ -59,3 +59,21 @@
 *object_name.object_method_name.call(other_object_name)
 *object_name.object_method_name.bind(other_object_name)
 *JSON.stringify(object_name) īpašības un vērtības nodod ar JSON palīdzību, metodes/funkcijas atmet
+
+7.DOM (document object model)
+*methods (darbības, kuras var veikt ar HTML elementiem;)
+*document (lai piekļūtu pie jebkura HTML elementa, vienmēr ir jāsāk ar piekļuvi pie "document")
+*elements (lai manipulētu ar HTML elementiem, tiem piekļūt var caur "id", "tag name", "class", "selector CSS", "collection objects HTML")
+*forms (HTML formas pārbaude var tikt realizēta caur Javascript)
+*events(HTML DOM ļauj Javascript reaģēt uz HTML notikumiem - klikšķi, u.t.t.)
+*event listener (addEventListener tiek aktivizēts, kad lietotājs nospiež pogu, piemērs - document.getElementById("myBtn").addEventListener("click", displayDate);)
+*navigation (pa "koka mezgliem" var pārvietoties, izmantojot HTML DOM)
+    **parentNode
+    **childNodes[nodenumber]
+    **firstChild
+    **lastChild
+    **nextSibling
+    **previousSibling
+*nodes
+*collections (metode getElementByTagName() atgriež objektu HTMLCollection)
+
