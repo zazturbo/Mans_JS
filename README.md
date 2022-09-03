@@ -4,30 +4,30 @@
 
 ### Satura rādītājs
 
-[Class 01]( https://github.com/zazturbo/Mans_JS/blob/472cd6e488ac916572acdc363637e951f24cab60/Class_01_20220502/README.md)
-Class 02  
-Class 03  
-Class 04  
-Class 05  
-Class 06  
-Class 07  
-Class 08  
-Class 09  
-Class 10  
-Class 11  
-Class 12  
-Class 13  
-Class 14  
-Class 15  
-Class 16  
-Class 17  
-Class 18  
-Class 19  
-Class 20  
-Class 21  
-Class 22  
-Class 23  
-Class 24  
-Class 25  
-Class 26  
-Class 27  
+[Class 01]( https://github.com/zazturbo/Mans_JS/blob/472cd6e488ac916572acdc363637e951f24cab60/Class_01_20220502/README.md)  
+[Class 02](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_02_20220509/README.md)  
+[Class 03](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_03_20220516/README.md)    
+[Class 04](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_04_20220523/readme.md)  
+[Class 05](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_05_20220530/readme.md)    
+[Class 06](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_06_20220601/readme.md)  
+[Class 07](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_07_20220606/readme.md)  
+[Class 08]()  
+[Class 09](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_09_20220613/readme.md)  
+[Class 10](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_10_20220615/readme.md)  
+[Class 11](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_11_20220620/readme.md)    
+[Class 12](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_12_20220627/readme.md)     
+[Class 13](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_13_20220629/readme.md)  
+[Class 14](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_14_20220704/readme.md)    
+[Class 15](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_15_20220706/readme.md)    
+[Class 16](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_16_20220711/readme.md)    
+[Class 17](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_17_20220713/readme.md)    
+[Class 18](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_18_20220718/readme.md)  
+[Class 19](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_19_20220720/readme.md)  
+[Class 20]()    
+[Class 21]()  
+[Class 22](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_22_20220815/readme.md)    
+[Class 23](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_23_20220817/readme.md)  
+[Class 24](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_24_20220822/readme.md)  
+[Class 25](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_25_20220824/readme.md)    
+[Class 26](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_26_20220829/readme.md)    
+[Class 27](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_27_20220831/readme.md)  
