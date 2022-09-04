@@ -46,7 +46,7 @@ var hex = 0xF; // hex will be set to 15
  
 2. Kad stāvoklis ir samainīts, vecākais bits (most significant bit) `1`1111011 norādā uz to, vai vērtība ir pozitīva (0) vai negatīva (1)  
 3. kad tas ir noskaidrots, atkal bināro skaitli samaina uz pretējo vērtību (sākotnējā stāvoklī 00000100)  
-4. Samainītajam binārajam skaitlim pieskaita vienu bitu (jeb 00000001). tas izskatās šādi:  
+4. Samainītajam binārajam skaitlim pieskaita vienu bitu (jeb 00000001). Tas izskatās šādi:  
 
 |Binārā vērtība|Decimālā vērtība|  
 |:---:|:---:|  
@@ -54,12 +54,7 @@ var hex = 0xF; // hex will be set to 15
 |00000001|1|  
 |00000101|5|  
 
+5. Rezultātā atbilstoši 2. punktam šajā gadījumā mums ir negatīva vērtība (-), un atbilstoši 4.punktā norādītajai procedūrai, kopējais rezultāts būs: **-5**  
+
  
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 20" fill="none">
-    <text x="0" y="15" fill="#4285f4">G</text>
-    <text x="12" y="15" fill="#ea4335">o</text>
-    <text x="21" y="15" fill="#fbbc05">o</text>
-    <text x="30" y="15" fill="#4285f4">g</text>
-    <text x="40" y="15" fill="#389738">l</text>
-    <text x="45" y="15" fill="#ea4335">e</text>
-</svg>
+
