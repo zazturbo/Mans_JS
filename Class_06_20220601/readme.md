@@ -1,10 +1,10 @@
-6.nodarbības kopsavilkums :pushpin:  
+# 6.nodarbības kopsavilkums :pushpin:  
 
-###Datu tipi  
-***
+### Datu tipi  
+*** 
 :link: Noderīgi resursi par tēmu: [šeit](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#number_type)  
-:home: Mājas darbs ar scriptiem:
+🏠 Mājas darbs ar scriptiem:
 :link: https://www.w3schools.com/js/js_whereto.asp
-Līdz pirmdienai:
-izmeģināt "Where To" - https://www.w3schools.com/js/js_whereto.asp
-turpināt izmēģināt dažādas operācijas ar dažādiem datu tipiem
+⏳ Līdz pirmdienai:
+➡️izmeģināt "Where To" - https://www.w3schools.com/js/js_whereto.asp
+➡️turpināt izmēģināt dažādas operācijas ar dažādiem datu tipiem
