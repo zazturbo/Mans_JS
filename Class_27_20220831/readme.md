@@ -20,7 +20,7 @@
 |onkeydown|Šis notikums tiek aktivizēts, kad lietotājs nospiež tastatūras taustiņu|  
 |onload|Šis notikums tiek aktivizēts, kad pārlūkprogramma ir pabeigusi lapas ielādi|
 
-🔗Pilns saraksts ar `Events` ir pieejams [šeit](https://www.w3schools.com/jsref/dom_obj_event.asp)
+🔗Pilns saraksts ar `Events` ir pieejams [šeit](https://www.w3schools.com/jsref/dom_obj_event.asp) un [šeit](https://oddler.ru/blog/i63)
 
 ---
 
@@ -29,10 +29,9 @@
 
 ---
 
-🔗Šajā youtube [video](https://www.youtube.com/watch?v=bWCzbR5DvCo) pieejama noderīga informācija par **_JS DOM Events_**  
-:link: Šeit ir [saraksts](https://oddler.ru/blog/i63) ar JavaScript standarta notikumiem (Events).  
+🔗Šajā youtube [video](https://www.youtube.com/watch?v=bWCzbR5DvCo) pieejama noderīga informācija par **_JS DOM Events_**   
 Citi noderīgi resursi par šo tēmu:  
--[x] [developer.mozilla](https://developer.mozilla.org/ru/docs/Web/Events);  
--[x] [addEventListener](https://developer.mozilla.org/ru/docs/Web/API/EventTarget/addEventListener)  
--[x] [object_event](https://developer.mozilla.org/ru/docs/Web/API/Event)  
--[x] [removeEventListener](https://developer.mozilla.org/ru/docs/Web/API/EventTarget/removeEventListener)
+- [x] [developer.mozilla](https://developer.mozilla.org/ru/docs/Web/Events);  
+- [x] [addEventListener](https://developer.mozilla.org/ru/docs/Web/API/EventTarget/addEventListener)  
+- [x] [object_event](https://developer.mozilla.org/ru/docs/Web/API/Event)  
+- [x] [removeEventListener](https://developer.mozilla.org/ru/docs/Web/API/EventTarget/removeEventListener)
