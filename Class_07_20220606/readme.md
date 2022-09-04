@@ -3,6 +3,7 @@
 ### Logical operators  
 🤯 `0||0 2||4` (|| nozīmē vai) šajā piemērā loģiskais vai sameklē pirmo patieso vērtību  
 > //answer 2  
+
 🤯 `4&&5` (& nozīmē un) šajā piemērā loģiskais operators un sameklē pirmo `false`, vai ja tāda nav, pēdējo vērtību  
 > //answer 5  
 
