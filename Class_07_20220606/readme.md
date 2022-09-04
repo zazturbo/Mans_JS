@@ -3,11 +3,11 @@
 ### Logical operators  
 🤯 `0||0 2||4` (|| nozīmē vai) šajā piemērā loģiskais vai sameklē pirmo patieso vērtību  
 ```diff  
-answer 2  
+@@answer 2@@  
 ```   
 🤯 `4&&5` (& nozīmē un) šajā piemērā loģiskais operators un sameklē pirmo `false`, vai ja tāda nav, pēdējo vērtību  
 ```diff  
-@@answer 5  
+@@answer 5@@  
 ```  
 ```  
 var bin = 0b1111; // bin will be set to 15  
