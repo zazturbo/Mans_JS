@@ -14,9 +14,10 @@ var oxx = 017; // oxx will be set to 15
 var hex = 0xF; // hex will be set to 15  
 // note: bB oO xX are all valid  
 ```  
-:[x] `!9` (ne deviņi) ir = false  
-:[x] `!0` (ne nulle) ir = true  
-:[x] `|` loģiskais vai pa bitiem. `9|2 rezultāts ir 11`  
+[x] `!9` (ne deviņi) ir = false  
+[x] `!0` (ne nulle) ir = true  
+[x] `|` loģiskais vai pa bitiem. `9|2 rezultāts ir 11`  
+
  ```  
  |Skaitliskā sistēma|Skaitlis 9|Skaitlis 2|  
  |-|-|-|  
