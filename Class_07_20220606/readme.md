@@ -25,10 +25,10 @@ var hex = 0xF; // hex will be set to 15
  |Binārā|00001001|00000010|  
 
  Ņemot vērā to, la loģiskais operators `| vai` sameklē pirmo loģisko vērtību, tad salīdzinot 9 un 2 binārā izteiksmē sanāk sekojošs rezultāts:  
- |00001001|  
- |-|
- |00000010|  
- |-|
- |00001011|  
+ |Binārā vērtība|Decimālā vērtība|
+ |:---:|:---:|
+ |00001001|9|  
+ |00000010|2|  
+ |00001011|11|  
  
  
