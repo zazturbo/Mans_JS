@@ -32,9 +32,9 @@ var hex = 0xF; // hex will be set to 15
  |00001011|**11**|  
  
  - [x] Vēl viens piemērs ar loģisko operatoru `~`:  
- * ~4 (apgriež visus bitus uz pretējo stāvokli) ir = -5  
- 🗒️Kā tas veidojas?  
- ```  
+ - ~4 (apgriež visus bitus uz pretējo stāvokli) ir = -5  
+ - Kā tas veidojas?  
+ 
  Decimālais skaitlis `4` binārā skaitīšanas sistēmā ir `00000100`  
  1. operators `~` samaina visu bitu stāvokli uz pretējo:  
  |Sākotnējais stāvoklis|Stāvoklis pēc tā maiņas|
