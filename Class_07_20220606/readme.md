@@ -40,5 +40,5 @@ var hex = 0xF; // hex will be set to 15
  |:---:|:---:|    
  |00000100|11111011|   
  
- 2. Kad stāvoklis ir samainīts, vecākais bits (most significant bit) <span style="color: red">1</span>1111011  
+ 2. Kad stāvoklis ir samainīts, vecākais bits (most significant bit) <span style="color: red">1</span> 1111011  
  
