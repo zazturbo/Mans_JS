@@ -31,7 +31,9 @@ var hex = 0xF; // hex will be set to 15
  |00000010|2|  
  |00001011|**11**|  
  ```diff  
- +Vēl viens piemērs ar loģisko operatoru `~`:  ~4 (apgriež visus bitus uz pretējo stāvokli) ir = -5. Kā tas veidojas?  
+ +Vēl viens piemērs ar loģisko operatoru "~"  
+ ~4 (apgriež visus bitus uz pretējo stāvokli) ir = -5.  
+ Kā tas veidojas?  
  ```  
  Decimālais skaitlis `4` binārā skaitīšanas sistēmā ir `00000100`  
  1. operators `~` samaina visu bitu stāvokli uz pretējo:  
@@ -40,6 +42,14 @@ var hex = 0xF; // hex will be set to 15
  |:---:|:---:|    
  |00000100|11111011|   
  
-2. Kad stāvoklis ir samainīts, vecākais bits (most significant bit) `1`1111011  
+2. Kad stāvoklis ir samainīts, vecākais bits (most significant bit) `1`1111011 norādā uz to, vai vērtība ir pozitīva (0) vai negatīva (1)  
+3. kad tas ir noskaidrots, atkal bināro skaitli samaina uz pretējo vērtību (sākotnējā stāvoklī 00000100)  
+4. Samainītajam binārajam skaitlim pieskaita vienu bitu (jeb 00000001). tas izskatās šādi:  
+|Binārā vērtība|Decimālā vērtība|
+|:---:|:---:|
+|00000100|4|
+|00000001|1|
+|00000101|5|  
+
  
 
