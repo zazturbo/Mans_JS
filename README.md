@@ -10,7 +10,7 @@
 [Class 04](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_04_20220523/readme.md)   CV (HTML)  
 [Class 05](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_05_20220530/readme.md)   HTML ievadformas  
 [Class 06](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_06_20220601/readme.md)   JavaScript, Mainīgie, Datu tipi  
-[Class 07](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_07_20220606/readme.md)   JS loģiskie operatori  
+[Class 07](https://github.com/zazturbo/Mans_JS/blob/2a8b76eed7f4e780ac93ce3d567a1e46d9b82813/Class_07_20220606/readme.md)   JS loģiskie operatori  
 [Class 08](https://github.com/zazturbo/Mans_JS/blob/19704f65c6641b99d4ba07dcd34d3602c5938dd8/Class_08_20220608/readme.md)   Algoritmi  
 [Class 09](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_09_20220613/readme.md)   Algoritmi, bankas uzdevums  
 [Class 10](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_10_20220615/readme.md)   Iterācija, Masīvs  
