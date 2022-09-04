@@ -93,7 +93,9 @@ LSB-->0001;
 |Task list| -[x] | -[x] ieķeksēts uzdevumu holderis|
 |Footnotes| [ ^ 2 ] | teksts [ ^ 2 ], aiz teksta [ ^ 2 ] :resurss |
 
-
+----------------------------------------------------------------------------------
+:floppy_disk: Formatēšana ar krāsām:  
+![color](https://github.com/zazturbo/Mans_JS/blob/88466e7a94abb3ac8c2effbca1c6f9839ed338a7/images/Marcdown_colors.png)  
 ----------------------------------------------------------------------------------  
 
 :fly:***`Citas piezīmes:`***   
