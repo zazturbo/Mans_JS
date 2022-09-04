@@ -4,9 +4,9 @@
 ***
 ### Satura rādītājs: 🗺️
 
-[Class 01]( https://github.com/zazturbo/Mans_JS/blob/472cd6e488ac916572acdc363637e951f24cab60/Class_01_20220502/README.md)  
-[Class 02](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_02_20220509/README.md)  
-[Class 03](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_03_20220516/README.md)    
+[Class 01]( https://github.com/zazturbo/Mans_JS/blob/472cd6e488ac916572acdc363637e951f24cab60/Class_01_20220502/README.md) Github markdown, page source, Ascii, bits  
+[Class 02](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_02_20220509/README.md) Skaitīšanas sistēmas  
+[Class 03](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_03_20220516/README.md) HTML basic    
 [Class 04](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_04_20220523/readme.md)  
 [Class 05](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_05_20220530/readme.md)    
 [Class 06](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_06_20220601/readme.md)  
