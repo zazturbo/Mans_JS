@@ -1,48 +1,42 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Dynamic Fields - Day #29</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <!-- include font awesome -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="css/style.css" /> -->
     <link
       rel="stylesheet"
-      type="text/css"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      href="https://www.javascripttutorial.net/sample/dom/form/css/style.css"
     />
   </head>
   <body>
-    <h1>Dynamic Fields Javascript</h1>
-    <div class="wrapper">
-      <div id="survey_options">
-        <input
-          type="text"
-          name="survey_options[]"
-          class="survey_options"
-          size="50"
-          placeholder="Name"
-        />
-        <input
-          type="text"
-          name="survey_options[]"
-          class="survey_options"
-          size="50"
-          placeholder="Email"
-        />
-        <input
-          type="text"
-          name="survey_options[]"
-          class="survey_options"
-          size="50"
-          placeholder="Another Field"
-        />
-      </div>
-      <div class="controls">
-        <a href="#" id="add_more_fields"><i class="fa fa-plus"></i>Add More</a>
-        <a href="#" id="remove_fields"
-          ><i class="fa fa-plus"></i>Remove Field</a
-        >
-      </div>
+    <div class="container">
+      <form action="signup.html" method="post" id="signup">
+        <h1>Sign Up</h1>
+        <div class="field">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your fullname"
+          />
+          <small></small>
+        </div>
+        <div class="field">
+          <label for="email">Email:</label>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Enter your email address"
+          />
+          <small></small>
+        </div>
+        <div class="field">
+          <button type="submit" class="full">Subscribe</button>
+        </div>
+      </form>
     </div>
-    <script src="script.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>

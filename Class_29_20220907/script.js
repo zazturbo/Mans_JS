@@ -1,20 +1,21 @@
-var survey_options = document.getElementById("survey_options");
-var add_more_fields = document.getElementById("add_more_fields");
-var remove_fields = document.getElementById("remove_fields");
-
-add_more_fields.onclick = function () {
-  var newField = document.createElement("input");
-  newField.setAttribute("type", "text");
-  newField.setAttribute("name", "survey_options[]");
-  newField.setAttribute("class", "survey_options");
-  newField.setAttribute("siz", 50);
-  newField.setAttribute("placeholder", prompt("Jaunās ailes nosaukums?"));
-  survey_options.appendChild(newField);
-};
-
-remove_fields.onclick = function () {
-  var input_tags = survey_options.getElementsByTagName("input");
-  if (input_tags.length > 2) {
-    survey_options.removeChild(input_tags[input_tags.length - 1]);
+const form = document.querySelector("#signup");
+function hasValue(element) {
+  if (element.value.trim() === "") {
+    element.className = "error";
+    const instruction = element.parentNode.querySelector("small");
+    if (element.id == "name") instruction.innerText = "Please enter name";
+    if (element.id == "email") instruction.inner.email = "Please enter email";
+  } else {
+    element.className = "success";
   }
-};
+}
+
+form.addEventListener("submit", function (event) {
+  event.preventDefault();
+
+  const name = form.elements["name"];
+  const email = form.elements["email"];
+
+  hasValue(name);
+  hasValue(element);
+});
