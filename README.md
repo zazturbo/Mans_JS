@@ -30,8 +30,11 @@
 [Class 20](https://github.com/zazturbo/Mans_JS/blob/5c4ada4ed12655119bd6e6faae96dc3bfc163eb0/Class_20_20220725/readme.md)  
 [Class 21](https://github.com/zazturbo/Mans_JS/blob/4805b294a316777ae95046144442fac360792784/Class_21_20220727/readme.md)  
 [Class 22](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_22_20220815/readme.md) Objekts Window, JS BOM  
-[Class 23](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_23_20220817/readme.md) Iebūvētie objekti JS
+[Class 23](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_23_20220817/readme.md) Iebūvētie objekti JS  
 [Class 24](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_24_20220822/readme.md) Windows objekti screen, history  
 [Class 25](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_25_20220824/readme.md) JavaScript DOM  
 [Class 26](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_26_20220829/readme.md) JS DOM, Nodes, piekļūšana HTML saturam  
-[Class 27](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_27_20220831/readme.md) DOM Events
+[Class 27](https://github.com/zazturbo/Mans_JS/blob/d551d56aae12408308d4afe003012f36670c0e97/Class_27_20220831/readme.md) DOM Events  
+[Class 28](https://github.com/zazturbo/Mans_JS/blob/202f035394d96281e9bd021d9ea68fe594ff4824/Class_28_20220905/readme.md) Manipulating elements  
+[Class 29](https://github.com/zazturbo/Mans_JS/blob/202f035394d96281e9bd021d9ea68fe594ff4824/Class_29_20220907/readme.md) Forms  
+[Class 30](https://github.com/zazturbo/Mans_JS/blob/202f035394d96281e9bd021d9ea68fe594ff4824/Class_30_20220908/readme.md) Forms  
