@@ -76,4 +76,4 @@
     **previousSibling
 *nodes
 *collections (metode getElementByTagName() atgriež objektu HTMLCollection)
-
+*Cookies
