@@ -38,3 +38,4 @@
 [Class 28](https://github.com/zazturbo/Mans_JS/blob/202f035394d96281e9bd021d9ea68fe594ff4824/Class_28_20220905/readme.md) Manipulating elements  
 [Class 29](https://github.com/zazturbo/Mans_JS/blob/202f035394d96281e9bd021d9ea68fe594ff4824/Class_29_20220907/readme.md) Forms  
 [Class 30](https://github.com/zazturbo/Mans_JS/blob/202f035394d96281e9bd021d9ea68fe594ff4824/Class_30_20220908/readme.md) Forms  
+[Class_31](https://github.com/zazturbo/Mans_JS/blob/3ff6bc0bc1c25ff3e18e095c2ffd1fb33a68d357/Class_31_20220912/readme.md) Cookies  
