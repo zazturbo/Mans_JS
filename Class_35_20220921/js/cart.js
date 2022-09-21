@@ -42,7 +42,7 @@ let generateCartItems = () => {
     ShoppingCart.innerHTML = ``;
     label.innerHTML = `
     <h2>Grozs ir tukšs!</h2>
-    <a href="index.html">
+    <a href="kaspars.html">
       <button class="HomeBtn">Atgriezties</button>
     </a>
     `;
