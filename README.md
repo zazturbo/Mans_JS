@@ -39,3 +39,8 @@
 [Class 29](https://github.com/zazturbo/Mans_JS/blob/202f035394d96281e9bd021d9ea68fe594ff4824/Class_29_20220907/readme.md) Forms  
 [Class 30](https://github.com/zazturbo/Mans_JS/blob/202f035394d96281e9bd021d9ea68fe594ff4824/Class_30_20220908/readme.md) Forms  
 [Class_31](https://github.com/zazturbo/Mans_JS/blob/3ff6bc0bc1c25ff3e18e095c2ffd1fb33a68d357/Class_31_20220912/readme.md) Cookies  
+[Class_32](https://github.com/zazturbo/Mans_JS/blob/710f9b5e3d70ccf9e07756950ed022880be6b321/Class_32_20220914/readme.md) Cookies  
+[Class_33](https://github.com/zazturbo/Mans_JS/blob/710f9b5e3d70ccf9e07756950ed022880be6b321/Class_33_20220915/readme.md) Praktiskais darbs (kopējais projekts)    
+[Class_34]()  
+[Class_35](https://github.com/zazturbo/Mans_JS/blob/710f9b5e3d70ccf9e07756950ed022880be6b321/Class_35_20220921/readme.md) Praktiskais darbs komandā  
+[Class_36](https://github.com/zazturbo/Mans_JS/blob/710f9b5e3d70ccf9e07756950ed022880be6b321/Class_36_20220922/readme.md) Vienības tests  
