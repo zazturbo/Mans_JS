@@ -1,0 +1,757 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #e5e5e5;
+}
+
+.wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+  width: 100%;
+  position: absolute;
+  top: 25%;
+}
+
+.car-container {
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+}
+
+.car {
+  height: 200px;
+  width: 400px;
+  border-radius: 20px;
+}
+
+.nav-bar {
+  background-color: #000;
+  width: 100%;
+  height: 6rem;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 27px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 27px 5px rgba(0, 0, 0, 0);
+  z-index: 3;
+  position: fixed;
+}
+
+.nav-bar img {
+  position: relative;
+  width: 500px;
+}
+
+.nav-bar .fa-cart-shopping {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  color: white;
+  position: absolute;
+  bottom: 28px;
+  left: 92.5%;
+  cursor: pointer;
+  font-size: 20px;
+  z-index: 2;
+  max-width: 100%;
+}
+
+.shop-icon .fa-cart-plus {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 90px;
+  display: flex;
+  opacity: 0;
+  position: absolute;
+}
+
+.showcase-container {
+  background-color: black;
+  width: 10%;
+  min-height: 2.5%;
+  height: auto;
+  z-index: 1;
+  left: 88%;
+  position: fixed;
+  top: 10%;
+  border-radius: 0px 0px 20px 20px;
+  z-index: 1;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 27px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 27px 5px rgba(0, 0, 0, 0);
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  animation: slide-in-fwd-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  z-index: 5;
+  display: none;
+}
+
+@keyframes slide-in-fwd-center {
+  0% {
+    transform: translateZ(-1400px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+h2 {
+  color: #000000;
+  text-align: center;
+  font-size: 3.5rem;
+  bottom: 50px;
+  position: relative;
+  animation: tracking-in-expand 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*Car entry animation*/
+
+.car-container img {
+  animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  -webkit-animation: slide-in-fwd-center 2s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: slide-in-fwd-center 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*Car entry animation 2*/
+
+@-webkit-keyframes slide-in-fwd-center {
+  0% {
+    -webkit-transform: translateZ(-1400px);
+    transform: translateZ(-1400px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-fwd-center {
+  0% {
+    -webkit-transform: translateZ(-1400px);
+    transform: translateZ(-1400px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+.fa-bag-shopping {
+  color: white;
+  position: absolute;
+  left: 85%;
+  top: 31px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+footer {
+  position: absolute;
+  background-color: #000;
+  top: 900px;
+  height: 250px;
+  width: 100%;
+  bottom: 100%;
+  margin: 0;
+  padding: 0 auto;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 27px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 27px 5px rgba(0, 0, 0, 0);
+  max-width: 100%;
+}
+
+footer .footer-options {
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 20px;
+  align-items: center;
+  list-style: none;
+  top: 12.5%;
+  margin: 0 auto;
+  position: relative;
+  flex-direction: column;
+}
+
+/* Javascript Styles */
+
+.list-group {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5px;
+  text-align: center;
+  font-size: 1em;
+}
+
+.list-group .fa-ban {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.trans-1 img {
+  position: relative;
+}
+
+.trans-1 img:hover ~ .fa-cart-plus {
+  opacity: 1;
+  left: 6.5%;
+  bottom: 70%;
+  transition: 1s;
+}
+
+.trans-1 .fa-cart-plus {
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  left: 6.5%;
+  bottom: 70%;
+}
+
+.trans-1 .fa-cart-plus:hover {
+  opacity: 1;
+  left: 6.5%;
+  bottom: 70%;
+  cursor: pointer;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.trans-1 img {
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+}
+
+.trans-1:hover img {
+  filter: grayscale(60%);
+  filter: opacity(75%);
+  cursor: pointer;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.trans-1 .fa-cart-plus:hover {
+  color: #5bb318;
+}
+
+.trans-2 img {
+  position: relative;
+}
+
+.trans-2 img:hover ~ .fa-cart-plus {
+  opacity: 1;
+  left: 37%;
+  bottom: 70%;
+  transition: 1s;
+}
+
+.trans-2 .fa-cart-plus {
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  left: 37%;
+  bottom: 70%;
+}
+
+.trans-2 .fa-cart-plus:hover {
+  opacity: 1;
+  left: 37%;
+  bottom: 70%;
+  cursor: pointer;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.trans-2 img {
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+}
+
+.trans-2:hover img {
+  filter: grayscale(60%);
+  filter: opacity(75%);
+  cursor: pointer;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.trans-2 .fa-cart-plus:hover {
+  color: #5bb318;
+}
+
+.trans-3 img {
+  position: relative;
+}
+
+.trans-3 img:hover ~ .fa-cart-plus {
+  opacity: 1;
+  left: 66.5%;
+  bottom: 70%;
+  transition: 1s;
+}
+
+.trans-3 .fa-cart-plus {
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  left: 66.5%;
+  bottom: 70%;
+}
+
+.trans-3 .fa-cart-plus:hover {
+  opacity: 1;
+  left: 66.5%;
+  bottom: 70%;
+  cursor: pointer;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.trans-3 img {
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+}
+
+.trans-3:hover img {
+  filter: grayscale(60%);
+  filter: opacity(75%);
+  cursor: pointer;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.trans-3 .fa-cart-plus:hover {
+  color: #5bb318;
+}
+
+.trans-4 img {
+  position: relative;
+}
+
+.trans-4 img:hover ~ .fa-cart-plus {
+  opacity: 1;
+  left: 6.5%;
+  bottom: 43%;
+  transition: 1s;
+}
+
+.trans-4 .fa-cart-plus {
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  left: 6.5%;
+  bottom: 43%;
+}
+
+.trans-4 .fa-cart-plus:hover {
+  opacity: 1;
+  left: 6.5%;
+  bottom: 43%;
+  cursor: pointer;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.trans-4 img {
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+}
+
+.trans-4:hover img {
+  filter: grayscale(60%);
+  filter: opacity(75%);
+  cursor: pointer;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.trans-4 .fa-cart-plus:hover {
+  color: #5bb318;
+}
+
+.trans-5 img {
+  position: relative;
+}
+
+.trans-5 img:hover ~ .fa-cart-plus {
+  opacity: 1;
+  left: 36.5%;
+  bottom: 43%;
+  transition: 1s;
+}
+
+.trans-5 .fa-cart-plus {
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  left: 36.5%;
+  bottom: 43%;
+}
+
+.trans-5 .fa-cart-plus:hover {
+  opacity: 1;
+  left: 36.5%;
+  bottom: 43%;
+  cursor: pointer;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.trans-5 img {
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+}
+
+.trans-5:hover img {
+  filter: grayscale(60%);
+  filter: opacity(75%);
+  cursor: pointer;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.trans-5 .fa-cart-plus:hover {
+  color: #5bb318;
+}
+
+.trans-6 img {
+  position: relative;
+}
+
+.trans-6 img:hover ~ .fa-cart-plus {
+  opacity: 1;
+  left: 66.5%;
+  bottom: 43%;
+  transition: 1s;
+}
+
+.trans-6 .fa-cart-plus {
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  left: 66.5%;
+  bottom: 43%;
+}
+
+.trans-6 .fa-cart-plus:hover {
+  opacity: 1;
+  left: 66.5%;
+  bottom: 43%;
+  cursor: pointer;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.trans-6 img {
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+}
+
+.trans-6:hover img {
+  filter: grayscale(60%);
+  filter: opacity(75%);
+  cursor: pointer;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.trans-6 .fa-cart-plus:hover {
+  color: #5bb318;
+}
+
+.trans-7 img {
+  position: relative;
+}
+
+.trans-7 img:hover ~ .fa-cart-plus {
+  opacity: 1;
+  left: 6.5%;
+  bottom: 17%;
+  transition: 1s;
+}
+
+.trans-7 .fa-cart-plus {
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  left: 6.5%;
+  bottom: 17%;
+}
+
+.trans-7 .fa-cart-plus:hover {
+  opacity: 1;
+  left: 6.5%;
+  bottom: 17%;
+  cursor: pointer;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.trans-7 img {
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+}
+
+.trans-7:hover img {
+  filter: grayscale(60%);
+  filter: opacity(75%);
+  cursor: pointer;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.trans-7 .fa-cart-plus:hover {
+  color: #5bb318;
+}
+
+.trans-8 img {
+  position: relative;
+}
+
+.trans-8 img:hover ~ .fa-cart-plus {
+  opacity: 1;
+  left: 37%;
+  bottom: 17%;
+  transition: 1s;
+}
+
+.trans-8 .fa-cart-plus {
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  left: 37%;
+  bottom: 17%;
+}
+
+.trans-8 .fa-cart-plus:hover {
+  opacity: 1;
+  left: 37%;
+  bottom: 17%;
+  cursor: pointer;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.trans-8 img {
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+}
+
+.trans-8:hover img {
+  filter: grayscale(60%);
+  filter: opacity(75%);
+  cursor: pointer;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.trans-8 .fa-cart-plus:hover {
+  color: #5bb318;
+}
+
+.trans-9 img {
+  position: relative;
+}
+
+.trans-9 img:hover ~ .fa-cart-plus {
+  opacity: 1;
+  left: 66.5%;
+  bottom: 17%;
+  transition: 1s;
+}
+
+.trans-9 .fa-cart-plus {
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  left: 66.5%;
+  bottom: 17%;
+}
+
+.trans-9 .fa-cart-plus:hover {
+  opacity: 1;
+  left: 66.5%;
+  bottom: 17%;
+  cursor: pointer;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.trans-9 img {
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+}
+
+.trans-9:hover img {
+  filter: grayscale(60%);
+  filter: opacity(75%);
+  cursor: pointer;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.trans-9 .fa-cart-plus:hover {
+  color: #5bb318;
+}

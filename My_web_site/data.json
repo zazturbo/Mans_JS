@@ -1,0 +1,47 @@
+[
+  {
+    "brand": "Chevrolette",
+    "name": "Stingray C7",
+    "price": 76500
+  },
+  {
+    "brand": "Pagani",
+    "name": "Huayra",
+    "price": 3650000
+  },
+  {
+    "brand": "Bugatti",
+    "name": "Chiron",
+    "price": 3000000
+  },
+  {
+    "brand": "Mclaren",
+    "name": "Senna",
+    "price": 1500000
+  },
+  {
+    "brand": "Hennessey",
+    "name": "F5",
+    "price": 2100000
+  },
+  {
+    "brand": "Mclaren",
+    "name": "720S",
+    "price": 300000
+  },
+  {
+    "brand": "Ford",
+    "name": "Mustang",
+    "price": 60000
+  },
+  {
+    "brand": "Lamborghini",
+    "name": "Veneno",
+    "price": 6000000
+  },
+  {
+    "brand": "Mitsubishi",
+    "name": "Lancer Evo",
+    "price": 40000
+  }
+]
