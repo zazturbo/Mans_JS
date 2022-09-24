@@ -41,10 +41,10 @@ let carSelectors = [
 ];
 
 // // Setting up the JSON
-// async function info() {
-//   return fetch("data.json").then((res) => res.json());
-// }
-// const data = await info();
+async function info() {
+  return fetch("data.json").then((res) => res.json());
+}
+const data = await info();
 
 //Iterating through the car selectors
 carSelectors.forEach(function (elem, index) {
@@ -87,9 +87,9 @@ carSelectors.forEach(function (elem, index) {
 checkoutIcon.addEventListener("click", function () {
   if (navMenu.children.length > 0) {
     alert(
-      "Thanks for your purchase! You have selected a total of " +
+      "Paldies par pirkumu! Jūs esat izvēlējies " +
         navMenu.children.length +
-        " items."
+        " vienības."
     );
   } else {
     alert("Please select a least one item!");

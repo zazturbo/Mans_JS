@@ -1,47 +1,47 @@
 [
   {
-    "brand": "Chevrolette",
-    "name": "Stingray C7",
-    "price": 76500
+    "brand": "Moscvich",
+    "name": "dzeltenais 412",
+    "price": 15000
   },
   {
-    "brand": "Pagani",
-    "name": "Huayra",
-    "price": 3650000
+    "brand": "Moscvich",
+    "name": "412 bez riepas",
+    "price": 10000
   },
   {
-    "brand": "Bugatti",
-    "name": "Chiron",
-    "price": 3000000
+    "brand": "Moscvich",
+    "name": "zaļais 412",
+    "price": 14000
   },
   {
-    "brand": "Mclaren",
-    "name": "Senna",
-    "price": 1500000
+    "brand": "Moscvich",
+    "name": "ar ādas salonu",
+    "price": 13500
   },
   {
-    "brand": "Hennessey",
-    "name": "F5",
-    "price": 2100000
+    "brand": "Moscvich",
+    "name": "melnais",
+    "price": 15500
   },
   {
-    "brand": "Mclaren",
-    "name": "720S",
-    "price": 300000
+    "brand": "Moscvich",
+    "name": "ar aļģēm",
+    "price": 9000
   },
   {
-    "brand": "Ford",
-    "name": "Mustang",
-    "price": 60000
+    "brand": "Moscvich",
+    "name": "retro",
+    "price": 21000
   },
   {
-    "brand": "Lamborghini",
-    "name": "Veneno",
-    "price": 6000000
+    "brand": "Moscvich",
+    "name": "retro 2",
+    "price": 21000
   },
   {
-    "brand": "Mitsubishi",
-    "name": "Lancer Evo",
-    "price": 40000
+    "brand": "Moscvich",
+    "name": "sarūsējušais",
+    "price": 8000
   }
 ]
