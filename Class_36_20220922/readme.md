@@ -1,6 +1,15 @@
-# 36.nodarbības kopsavilkums :pushpin:
+# 36.nodarbības kopsavilkums :pushpin:  
 
-## Vienības tests
+## Vienības tests 🧪  
+***
+🔗 [smilšukaste](https://codesandbox.io/s/204q4r408j)  
+➡️`Jest` rīks testiem;  
+➡️Ar bultiņu ⬆️ vai ⬇️ palīdzību var atgriezt atmiņā palikušo ierakstu;  
 
-:floppy: [smilšukaste](https://codesandbox.io/s/204q4r408j)
-https://meet.google.com/xpo-gewz-oex
+***  
+🗒️Testēšanas sagatavošana:  
+- [x] Jāieiet konkrētajā mapē ar `CD '/c/Mape/piemers'`  
+- [x] Komandrindā jāieraksta `npm install`  
+- [x] Tālāk `npm i jest`  
+- [x] Tad `npm run test`  
+
