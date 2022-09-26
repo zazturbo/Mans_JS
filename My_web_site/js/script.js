@@ -92,6 +92,6 @@ checkoutIcon.addEventListener("click", function () {
         " vienības."
     );
   } else {
-    alert("Please select a least one item!");
+    alert("Auto nav izvēlēts!");
   }
 });
