@@ -1,12 +1,15 @@
 //with enter send message
-const inputField = document.getElementById("input");
-inputField.addEventListener("keydown", (e) => {
-  if (e.code === "Enter") {
-    let input = inputField.value;
-    inputField.value = "";
-    output(input);
-  }
-});
+
+if (typeof document !== "undefined") {
+  const inputField = document.getElementById("input");
+  inputField.addEventListener("keydown", (e) => {
+    if (e.code === "Enter") {
+      let input = inputField.value;
+      inputField.value = "";
+      output(input);
+    }
+  });
+}
 
 //remove everything other than words
 function output(input) {
@@ -30,7 +33,7 @@ function output(input) {
 }
 
 const utterances = [
-  ["hi", "hey", "hello", "good morning", "good afternoon"],
+  ["hi", "hey", "hello", "good morning", "good afternoon", "labdien"],
   ["help me", "can you help me", "i need help"],
   ["how to buy on this website"],
   ["what currency do you accept"],
@@ -98,3 +101,8 @@ function addChatEntry(input, product) {
     botText.innerText = `${product}`;
   }, 2000);
 }
+
+//module.exports.compare = compare;
+//module.exports.utterances = utterances;
+//module.exports.answers = answers;
+module.exports = { compare, utterances, answers };
