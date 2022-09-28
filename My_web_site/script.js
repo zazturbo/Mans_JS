@@ -1,3 +1,4 @@
+//Menu and shopping car selectors
 let navShoppingCart = document.querySelector(".fa-cart-shopping");
 let navMenu = document.querySelector(".showcase-container");
 
@@ -40,7 +41,7 @@ let carSelectors = [
   carSelector9,
 ];
 
-// // Setting up the JSON
+// Setting up the JSON
 async function info() {
   return fetch("data.json").then((res) => res.json());
 }
