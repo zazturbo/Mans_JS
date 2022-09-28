@@ -18,6 +18,9 @@ let user_log_in = document.getElementById("log_in");
 
 logIn.addEventListener("click", () => {
   location.href = "./html/log_in.html";
+  if (document.getElementById("logIn").clicked == true) {
+    console.log("clicked!!!");
+  }
 });
 
 //Checkout Icon
