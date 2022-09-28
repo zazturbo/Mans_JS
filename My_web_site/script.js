@@ -87,11 +87,11 @@ carSelectors.forEach(function (elem, index) {
 checkoutIcon.addEventListener("click", function () {
   if (navMenu.children.length > 0) {
     alert(
-      "Paldies par pirkumu! Jūs esat izvēlējies " +
+      "Thanks for your purchase! You have selected a total of " +
         navMenu.children.length +
-        " vienības."
+        " items."
     );
   } else {
-    alert("Auto nav izvēlēts!");
+    alert("Please select a least one item!");
   }
 });
