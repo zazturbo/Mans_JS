@@ -1,6 +1,7 @@
 //Menu and shopping car selectors
 let navShoppingCart = document.querySelector(".fa-cart-shopping");
 let navMenu = document.querySelector(".showcase-container");
+let logIn = document.querySelector(".fa-user");
 
 //Car selectors
 let carSelector1 = document.getElementById("car-selector-1");
@@ -12,6 +13,12 @@ let carSelector6 = document.getElementById("car-selector-6");
 let carSelector7 = document.getElementById("car-selector-7");
 let carSelector8 = document.getElementById("car-selector-8");
 let carSelector9 = document.getElementById("car-selector-9");
+
+let user_log_in = document.getElementById("log_in");
+
+logIn.addEventListener("click", () => {
+  location.href = "./html/log_in.html";
+});
 
 //Checkout Icon
 let checkoutIcon = document.getElementById("checkout");
