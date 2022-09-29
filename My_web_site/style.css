@@ -45,15 +45,17 @@ body {
 
 .shop-icon .fa-cart-plus {
   background-color: white;
-  width: 50px;
-  height: 50px;
+  width: 35px;
+  height: 35px;
   justify-content: center;
   align-items: center;
   border-radius: 90px;
   display: flex;
   opacity: 0;
   position: absolute;
-  border: solid #5bb318;
+  bottom: 8px;
+  left: 16px;
+  border: solid #92db5b;
 }
 
 .showcase-container {
@@ -218,10 +220,6 @@ footer .footer-options {
   flex-direction: column;
 }
 
-.fa-github {
-  color: white;
-}
-
 /* Javascript Styles */
 
 .list-group {
@@ -282,17 +280,10 @@ footer .footer-options {
 }
 
 .trans-1:hover img {
-  filter: grayscale(60%);
   filter: opacity(75%);
-  cursor: pointer;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  transition: all 1s ease;
-  -webkit-box-shadow: 0px 10px 13px -7px #000000,
-    5px 5px 15px 5px rgba(0, 0, 0, 0);
-  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0px 10px 13px -7px #000000;
+  width: 550px;
+  height: 260px;
 }
 
 .trans-1 .fa-cart-plus:hover {
@@ -342,17 +333,10 @@ footer .footer-options {
 }
 
 .trans-2:hover img {
-  filter: grayscale(60%);
   filter: opacity(75%);
-  cursor: pointer;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  transition: all 1s ease;
-  -webkit-box-shadow: 0px 10px 13px -7px #000000,
-    5px 5px 15px 5px rgba(0, 0, 0, 0);
-  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0px 10px 13px -7px #000000;
+  width: 550px;
+  height: 260px;
 }
 
 .trans-2 .fa-cart-plus:hover {
@@ -402,17 +386,10 @@ footer .footer-options {
 }
 
 .trans-3:hover img {
-  filter: grayscale(60%);
   filter: opacity(75%);
-  cursor: pointer;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  transition: all 1s ease;
-  -webkit-box-shadow: 0px 10px 13px -7px #000000,
-    5px 5px 15px 5px rgba(0, 0, 0, 0);
-  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0px 10px 13px -7px #000000;
+  width: 550px;
+  height: 260px;
 }
 
 .trans-3 .fa-cart-plus:hover {
@@ -462,17 +439,10 @@ footer .footer-options {
 }
 
 .trans-4:hover img {
-  filter: grayscale(60%);
   filter: opacity(75%);
-  cursor: pointer;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  transition: all 1s ease;
-  -webkit-box-shadow: 0px 10px 13px -7px #000000,
-    5px 5px 15px 5px rgba(0, 0, 0, 0);
-  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0px 10px 13px -7px #000000;
+  width: 550px;
+  height: 260px;
 }
 
 .trans-4 .fa-cart-plus:hover {
@@ -522,17 +492,10 @@ footer .footer-options {
 }
 
 .trans-5:hover img {
-  filter: grayscale(60%);
   filter: opacity(75%);
-  cursor: pointer;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  transition: all 1s ease;
-  -webkit-box-shadow: 0px 10px 13px -7px #000000,
-    5px 5px 15px 5px rgba(0, 0, 0, 0);
-  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0px 10px 13px -7px #000000;
+  width: 550px;
+  height: 260px;
 }
 
 .trans-5 .fa-cart-plus:hover {
@@ -582,17 +545,10 @@ footer .footer-options {
 }
 
 .trans-6:hover img {
-  filter: grayscale(60%);
   filter: opacity(75%);
-  cursor: pointer;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  transition: all 1s ease;
-  -webkit-box-shadow: 0px 10px 13px -7px #000000,
-    5px 5px 15px 5px rgba(0, 0, 0, 0);
-  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0px 10px 13px -7px #000000;
+  width: 550px;
+  height: 260px;
 }
 
 .trans-6 .fa-cart-plus:hover {
@@ -642,17 +598,10 @@ footer .footer-options {
 }
 
 .trans-7:hover img {
-  filter: grayscale(60%);
   filter: opacity(75%);
-  cursor: pointer;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  transition: all 1s ease;
-  -webkit-box-shadow: 0px 10px 13px -7px #000000,
-    5px 5px 15px 5px rgba(0, 0, 0, 0);
-  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0px 10px 13px -7px #000000;
+  width: 550px;
+  height: 260px;
 }
 
 .trans-7 .fa-cart-plus:hover {
@@ -702,17 +651,10 @@ footer .footer-options {
 }
 
 .trans-8:hover img {
-  filter: grayscale(60%);
   filter: opacity(75%);
-  cursor: pointer;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  transition: all 1s ease;
-  -webkit-box-shadow: 0px 10px 13px -7px #000000,
-    5px 5px 15px 5px rgba(0, 0, 0, 0);
-  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0px 10px 13px -7px #000000;
+  width: 550px;
+  height: 260px;
 }
 
 .trans-8 .fa-cart-plus:hover {
@@ -762,17 +704,10 @@ footer .footer-options {
 }
 
 .trans-9:hover img {
-  filter: grayscale(60%);
   filter: opacity(75%);
-  cursor: pointer;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  transition: all 1s ease;
-  -webkit-box-shadow: 0px 10px 13px -7px #000000,
-    5px 5px 15px 5px rgba(0, 0, 0, 0);
-  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0px 10px 13px -7px #000000;
+  width: 550px;
+  height: 260px;
 }
 
 .trans-9 .fa-cart-plus:hover {
